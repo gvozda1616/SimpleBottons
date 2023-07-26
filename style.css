@@ -1,0 +1,27 @@
+botton{
+    display: inline-block;
+    font-size: 20px;
+    border: solid;
+    text-align: center;
+    line-height: 38px; /*выравнивание текста внутри кнопок*/
+    margin-left: 17px;
+    user-select: none; /*для того, чтобы текст внутри кнопок не выделялся*/
+    transition: 400ms;
+}
+.botton_type_1{
+    width: 120px; /*в три раза больше центарльных кнопок*/
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.botton_type_2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border-width: 1px;
+}
+botton:hover{
+    background-color: #E17612;
+    border-color: #E17612;
+    color: white;
+}
